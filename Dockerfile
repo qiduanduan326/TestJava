@@ -5,7 +5,7 @@ ADD ./src src/
 
 RUN mvn clean package
 
-FROM openjdk:17
+FROM openjdk:11
 
 COPY --from=builder target/Java_Devops_Demo-1.0-SNAPSHOT.jar /app/app.jar
 
