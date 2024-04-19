@@ -1,4 +1,4 @@
-FROM testJenkins3
+FROM maven-jdk:v3.8.8-17.0.10 AS builder
 
 ADD ./pom.xml pom.xml
 ADD ./src src/
