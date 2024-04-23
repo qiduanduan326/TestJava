@@ -16,6 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     @GetMapping("/")
     public String helloWorld(){
-        return "Hello Java !";
+        return "Hello Java from Jenkins !";
     }
 }
